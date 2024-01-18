@@ -6,7 +6,7 @@
 
 ## Learning Objectives
 
-#### What is HTML 
+#### What is HTML
 #### How to create an HTML page from a wireframe
 #### What is a markup language
 #### What is the DOM
