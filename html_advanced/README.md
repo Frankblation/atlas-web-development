@@ -14,7 +14,9 @@
 #### What is an attribute
 #### What the purpose of each HTML tag
 
+
 # Wire frame example
+
 ![Alt text](wireframe.png)
 
 ## Author:
