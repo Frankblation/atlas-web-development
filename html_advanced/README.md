@@ -1,6 +1,4 @@
-<div style="background-color:pink; padding:10px; border-radius: 5px;">
-  This is a cute div!
-</div>
+![banner](banner.png)
 
 # Html Advanced :heart: :smile: :sparkles:
 
@@ -17,5 +15,5 @@ What is an attribute
 What the purpose of each HTML tag
 
 # Wire frame example
-![Alt text](image.png)
+![Alt text](wireframe.png)
 
