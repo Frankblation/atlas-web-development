@@ -1,6 +1,12 @@
-#Html Advanced 
+<div style="background-color:pink; padding:10px; border-radius: 5px;">
+  This is a cute div!
+</div>
 
-##Learning Objectives
+# Html Advanced :heart: :smile: :sparkles:
+
+#### Building Index to fit wire frame lay out
+
+## Learning Objectives
 
 What is HTML
 How to create an HTML page from a wireframe
@@ -10,5 +16,6 @@ What is an element / tag
 What is an attribute
 What the purpose of each HTML tag
 
-#wire frame example
+# Wire frame example
 ![Alt text](image.png)
+
