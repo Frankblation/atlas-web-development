@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    width: 1112px;
+    height: 37px;
+    top: 0;
+    left: 175.7;
+  }
+
+  .headbox {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .menu {
+    display: flex;
+    justify-content:padding;
+
+  }
+
+  /* Banner Styles */
+    .banner {
+    position: relative;
+    background: url('image/background.png') center/cover; /* Adjust the background properties as needed */
+    height: 100%;/* Adjust the height as needed */
+    z-index: 0; /* Lower z-index for the background */
+  }
