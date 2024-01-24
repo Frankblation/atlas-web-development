@@ -4,7 +4,7 @@
     font-weight: normal;
     font-style: normal;
   }
-
+/* Header _________________________*/
   header {
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@
   }
 
 
-  /* Banner Styles */
+  /* Banner Styles _______________________*/
     .banner {
     display: flex;
     flex-direction: column;
@@ -165,7 +165,7 @@
     line-height: normal;
   }
 
-  /*Quote*/
+  /*Quote_____________________________________*/
 
   .quote {
     background-color: #C271FF;
@@ -187,6 +187,7 @@
     flex-shrink: 0;
     align-items: center;
   }
+
 .quote img{
   border-radius:80px;
 }
@@ -200,6 +201,7 @@
   height: 158px;
   flex-shrink: 0;
 }
+
   .quote blockquote {
     display: flex;
     position: relative;;
@@ -212,6 +214,7 @@
     font-weight: 400;
     line-height: 33.6px;
   }
+
   .quotebox .p1{
     display: flex;
     position: relative;
@@ -225,6 +228,7 @@
     line-height: 33.6px;
     border-spacing: 0px;
    }
+
    .quotebox .p2{
     display: flex;
     position:relative;
@@ -238,13 +242,52 @@
     line-height: 33.6px;
   }
 
+  /*VIDEO______________________________*/
+
   .video {
+    display: flex;
+    position:relative;
     background-color: #fff;
     fill: #fff;
     width: 1440px;
-    height: 3718px;
+    height: 371px;
     flex-shrink: 0;
   }
+
+  .video-container {
+    display: flex;
+    position: relative;
+    width: 1228px;
+    height: 450px;
+    flex-shrink: 0;
+  }
+
+  .video-title{
+    display:flex;
+    position: relative;
+    right:557px;
+    left: 589px;
+    color: #071629;
+    text-align: center;
+    word-spacing: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .video-title .highlight2 {
+    color: #C271FF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+/*Membership___________________________*/
+
   .membership{
     background-color: #071629;
     fill: #071629;
