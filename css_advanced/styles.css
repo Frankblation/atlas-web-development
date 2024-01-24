@@ -11,8 +11,8 @@ header {
     position: absolute;
     z-index: 1;
     width: 1112px;
-    top: 101px;
-    left: 175.08px;
+    top: 45px;
+    left: 150.08px;
   }
 
   .headbox {
@@ -52,13 +52,73 @@ header {
     height: 1093px;
   }
 
-  .banner h1 {
 
+  #GetSchooled {
+    display: flex;
+    position: absolute;
+    left: 380px;
+    top: 155px;
     color: #FFF;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 120px;
+    font-size: 110px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+
+  #BP {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 597.08px;
+    top: 370px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-spacing: 59px;
+}
+
+ .people {
+  display:flex;
+  justify-content: space-evenly;
+  padding-right: 40%;
+  padding-left: 40%;
+  gap: 139px;
+  padding-top: 600px
+  }
+
+  .people img{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: left;
+
+
+
+  }
+
+  .people h3{
+    color: white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    line-height: 27px;
+    word-wrap: break-word;
+    text-align: center;
+
+  }
+  .people p{
+    color: white;
+    font-size: 16px;
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align:center;
   }
