@@ -83,6 +83,26 @@ header {
     word-spacing: 59px;
 }
 
+#button1 {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    top: 430px;
+    left: 648px;
+    width: 162px;
+    height: 44px;
+    color: #ffff;
+    text-align: center;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:normal;
+    border-radius: 22px;
+    background: #C271FF;
+  }
  .people {
   display:flex;
   justify-content: space-evenly;
@@ -97,8 +117,6 @@ header {
     justify-content: center;
     border-radius: 50%;
     align-items: left;
-
-
 
   }
 
