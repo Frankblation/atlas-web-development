@@ -10,9 +10,10 @@ header {
     justify-content: space-between;
     position: absolute;
     z-index: 1;
-    width: 1112px;
-    top: 45px;
-    left: 150.08px;
+    width: 1045px;
+    top: 35px;
+    left: 200.08px;
+    right: 100.08px
   }
 
   .headbox {
@@ -23,9 +24,10 @@ header {
   }
 
   .menu {
+    border: 1px solid #000;
     display: flex;
     height: 15px;
-    align-items: flex-start;
+    align-items: center;
     gap: 52px;
     flex-shrink: 0;
     right: 169.08px;
@@ -55,12 +57,12 @@ header {
 
   #GetSchooled {
     display: flex;
-    position: absolute;
-    left: 380px;
-    top: 155px;
+    position: relative;
+    left: 375px;
+    top: 140px;
     color: #FFF;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source-SansPro', sans-serif;
     font-size: 110px;
     font-style: normal;
     font-weight: 700;
@@ -70,9 +72,9 @@ header {
   #BP {
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    left: 597.08px;
-    top: 370px;
+    position: relative;
+    left: 600.08px;
+    top: 50px;
     color: #FFF;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -80,7 +82,7 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    word-spacing: 59px;
+    word-spacing: 57px;
 }
 
 #button1 {
@@ -89,13 +91,13 @@ header {
     height: 40px;
     line-height: 40px;
     position: relative;
-    top: 430px;
-    left: 648px;
+    top: 90px;
+    left: 655px;
     width: 162px;
     height: 44px;
     color: #ffff;
     text-align: center;
-    font-family: 'Source Sans Pro',sans-serif;
+    font-family: 'SourceSansPro';
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -109,7 +111,7 @@ header {
   padding-right: 40%;
   padding-left: 40%;
   gap: 139px;
-  padding-top: 600px
+  padding-top: 87px
   }
 
   .people img{
@@ -140,3 +142,47 @@ header {
     word-wrap: break-word;
     text-align:center;
   }
+
+  .banner h2 {
+    display:flex;
+    padding-top: 200px;
+    padding-left: 595px;
+    color: #C271FF;
+    text-align: center;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .highlight {
+    color: #FFF;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  /*Quote*/
+
+  .quote {
+    background-color: #C271FF;
+    fill: #C271FF;
+    width: 1440px;
+    height: 392px;
+    flex-shrink: 0;
+  }
+  #img{
+    display:flex;
+    padding-left: 300px;
+    padding-top: 110px;
+  }
+  .quote img {
+    border-radius: 50%;
+  }
+.quotebox {
+  display: flex;
+  width: 730px;
+  height: 158px;
+}
