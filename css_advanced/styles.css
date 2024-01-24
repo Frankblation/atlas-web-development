@@ -1,29 +1,64 @@
+  @font-face {
+    font-family: 'Source Sans Pro';
+    src: url('css_advanced/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 header {
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
     z-index: 1;
     width: 1112px;
-    height: 37px;
-    top: 0;
-    left: 175.7;
+    top: 101px;
+    left: 175.08px;
   }
 
   .headbox {
     display: flex;
     justify-content: flex-start;
+    width: 167.016px;
+    height: 29.461px;
   }
 
   .menu {
     display: flex;
-    justify-content:padding;
+    height: 15px;
+    align-items: flex-start;
+    gap: 52px;
+    flex-shrink: 0;
+    right: 169.08px;
 
   }
+  header .menu a {
+    height: 15px; color: #FFF;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
 
   /* Banner Styles */
     .banner {
-    position: relative;
-    background: url('image/background.png') center/cover; /* Adjust the background properties as needed */
-    height: 100%;/* Adjust the height as needed */
-    z-index: 0; /* Lower z-index for the background */
+    display: flex;
+    flex-direction: column;
+    background: url('image/background.png') center;
+    z-index: 0;
+    width: 1440px;
+    height: 1093px;
+  }
+
+  .banner h1 {
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
