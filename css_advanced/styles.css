@@ -1,198 +1,166 @@
-  @font-face {
-    font-family: 'Source Sans Pro';
-    src: url('css_advanced/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-/* Header _________________________*/
-  header {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    z-index: 1;
-    width: 1045px;
-    top: 35px;
-    left: 200.08px;
-    right: 100.08px
-  }
 
-  .headbox {
-    display: flex;
-    justify-content: flex-start;
-    width: 167.016px;
-    height: 29.461px;
-  }
-
-  .menu {
-    border: 1px solid #000;
-    display: flex;
-    height: 15px;
-    align-items: center;
-    gap: 52px;
-    flex-shrink: 0;
-    right: 169.08px;
-
-  }
-  header .menu a {
-    height: 15px; color: #FFF;
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-
-  /* Banner Styles _______________________*/
-    .banner {
-    display: flex;
-    flex-direction: column;
-    background: url('image/background.png') center;
-    z-index: 0;
-    width: 1440px;
-    height: 1093px;
-  }
-
-
-  #GetSchooled {
-    display: flex;
-    position: relative;
-    left: 375px;
-    top: 140px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Source-SansPro', sans-serif;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  #BP {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    left: 600.08px;
-    top: 50px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    word-spacing: 57px;
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('css_advanced/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-  #button1 {
-    display: flex;
-    align-items: center;
-    height: 40px;
-    line-height: 40px;
-    position: relative;
-    top: 90px;
-    left: 655px;
-    width: 162px;
-    height: 44px;
-    color: #ffff;
-    text-align: center;
-    font-family: 'SourceSansPro';
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height:normal;
-    border-radius: 22px;
-    background: #C271FF;
-  }
-  .people {
-    display:flex;
-    justify-content: space-evenly;
-    padding-right: 218px;
-    padding-left: 221px;
-    gap: 139px;
-    padding-top: 87px
-  }
-
-  .people img{
-    display: flex;
-    justify-content: center;
-    border-radius: 50%;
-    align-items: left;
-
-  }
-
-  .people h3{
-    color: white;
-    font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-    line-height: 27px;
-    word-wrap: break-word;
-    text-align: center;
-
-  }
-  .people p{
-    color: white;
-    font-size: 16px;
-    font-family: Source Sans Pro;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 24px;
-    word-wrap: break-word;
-    text-align:center;
-  }
-
-  .banner h2 {
-    display:flex;
-    padding-top: 200px;
-    padding-left: 608px;
-    padding-right: 546px;
-    color: #C271FF;
-    text-align: left;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .highlight {
-    color: #FFF;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-  }
-
-  /*Quote_____________________________________*/
-
-  .quote {
-    background-color: #C271FF;
-    fill: #C271FF;
-    width: 1440px;
-    height: 392px;
-    flex-shrink: 0;
-  }
-  #img{
-    display: flex;
-    position: relative;
-    top: 25px;
-    left: 220px;
-    bottom: 32px;
-    right: 904px;
-    flex-direction:row;
-    width: 394px;
-    height: 341px;
-    flex-shrink: 0;
-    align-items: center;
-  }
-
-.quote img{
-  border-radius:80px;
+body{
+  display:flex;
+  flex-wrap:wrap
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+  width: 1045px;
+  top: 35px;
+  left: 200.08px;
+  right: 100.08px;
 }
 
-  .quotebox {
+.headbox {
+  display: flex;
+  justify-content: flex-start;
+  width: 167px;
+  height: 29px;
+}
+
+.menu {
+  border: 1px solid #000;
+  display: flex;
+  height: 15px;
+  align-items: center;
+  gap: 52px;
+  flex-shrink: 0;
+  right: 169.08px;
+}
+
+header .menu a {
+  height: 15px;
+  color: #FFF;
+  text-decoration: none;
+  font: 12px/normal 'Source Sans Pro', sans-serif;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background: #071629 url('image/background.png') no-repeat center/cover;
+  z-index: 0;
+  width: 1440px;
+  height: 1093px;
+}
+
+#GetSchooled {
+  display: flex;
+  position: relative;
+  max-width: fit-content;
+  left: 375px;
+  top: 140px;
+  color: #FFF;
+  text-align: center;
+  font: 700 125px 'Source Sans Pro', 'SourceSansPro-Regular';
+
+}
+
+#BP {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 600.08px;
+  top: 75px;
+  color: #FFF;
+  text-align: center;
+  font: 700 16px/normal 'Source Sans Pro', sans-serif;
+  word-spacing: 57px;
+
+}
+
+#button1 {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  top: 90px;
+  left: 655px;
+  width: 162px;
+  color: #ffff;
+  text-align: center;
+  font: 600 13px/normal 'SourceSansPro';
+  border-radius: 22px;
+  background: #C271FF;
+}
+
+.people {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 87px 218px 0 221px;
+  gap: 139px;
+}
+
+.people img {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: left;
+}
+
+.people h3 {
+  color: white;
+  font: 900 18px/27px 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+.people p {
+  color: white;
+  font: 400 16px/24px 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+.banner h2 {
+  display: flex;
+  padding: 200px 0 0 608px;
+  color: #C271FF;
+  text-align: left;
+  font: 700 32px/normal 'Source Sans Pro', sans-serif;
+}
+
+.highlight {
+  color: #FFF;
+  font: 300 32px/normal 'Source Sans Pro', sans-serif;
+}
+
+.quote {
+  background: #C271FF;
+  fill: #C271FF;
+  width: 1440px;
+  height: 392px;
+  flex-shrink: 0;
+}
+
+#img {
+  display: flex;
+  position: relative;
+  top: 25px;
+  left: 220px;
+  bottom: 32px;
+  right: 904px;
+  flex-direction: row;
+  width: 394px;
+  height: 341px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.quote img {
+  border-radius: 80px;
+}
+
+.quotebox {
   display: flex;
   position: relative;
   top: -15px;
@@ -202,96 +170,115 @@
   flex-shrink: 0;
 }
 
-  .quote blockquote {
-    display: flex;
-    position: relative;;
-    align-content: center;
-    left: 0px;
-    color: #FFF;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 33.6px;
-  }
+.quote blockquote {
+  display: flex;
+  position: relative;
+  left: 0px;
+  color: #FFF;
+  font: 400 22px/33.6px 'Source Sans Pro', sans-serif;
+}
 
-  .quotebox .p1{
+.quotebox .p1 {
+  display: flex;
+  position: relative;
+  padding-left: 40px;
+  color: #FFFF;
+  font: 700 22px/33.6px 'Source Sans Pro';
+}
+
+.quotebox .p2 {
+  display: flex;
+  position: relative;
+  top: -40px;
+  left: 40px;
+  color: #FFF;
+  font: 400 22px/33.6px 'Source Sans Pro';
+}
+
+.video {
     display: flex;
+    align-items: center;
     position: relative;
-    align-content: center;
-    padding-left: 40px;
-    color: #FFFF;
-    font-family: 'Source Sans Pro';
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 33.6px;
-    border-spacing: 0px;
-   }
-
-   .quotebox .p2{
-    display: flex;
-    position:relative;
-    top: -40px;
-    left: 40px;
-    color: #FFF;
-    font-family: 'Source Sans Pro';
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 33.6px;
-  }
-
-  /*VIDEO______________________________*/
-
-  .video {
-    display: flex;
-    position:relative;
-    background-color: #fff;
-    fill: #fff;
+    margin: 0 auto;
+    max-width: 1440px;
     width: 1440px;
-    height: 371px;
+    height: 674px;
     flex-shrink: 0;
+
+}
+
+.video-title {
+  display: flex;
+  position: absolute;
+  color: #071629;
+  text-align: center;
+  word-spacing: normal;
+  font: 400 24px/normal 'Source Sans Pro', sans-serif;
+}
+
+.video-title .highlight2 {
+  color: #C271FF;
+  font: 700 36px/normal 'Source Sans Pro', sans-serif;
+}
+
+.video-container {
+  display: flex;
+  position: absolute;
+ justify-content: space-around;
+  border: 10px solid #000;
+  width: 1228px;
+  height: 450px;
+  flex-shrink: 0;
+  margin-left: 80px;
+}
+
+.vidbox1,
+.vidbox2,
+.vidbox3,
+.vidbox4 {
+
+  position: relative;
+  width: 255px;
+  height: 335px;
+  flex-shrink: 0;
+  margin: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+
+}
+
+#phill {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.stars {
+  width: 107px;
+  height: 15px;
+  flex-shrink: 0;
+  padding: 305px 135px 15px 13px;
+}
+.membership {
+  background: #071629;
+  fill: #071629;
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+}
+.box {
+  width: 64px;
+  height: 64px;
   }
-
-  .video-container {
-    display: flex;
-    position: relative;
-    width: 1228px;
-    height: 450px;
-    flex-shrink: 0;
-  }
-
-  .video-title{
-    display:flex;
-    position: relative;
-    right:557px;
-    left: 589px;
-    color: #071629;
-    text-align: center;
-    word-spacing: normal;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-
-  .video-title .highlight2 {
-    color: #C271FF;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-/*Membership___________________________*/
-
-  .membership{
-    background-color: #071629;
-    fill: #071629;
-    width: 1440px;
-    height: 502px;
-    flex-shrink: 0;
+  .box .play {
+  display: flex;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 45px;
+  left: 95px;
   }
