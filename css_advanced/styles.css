@@ -198,7 +198,6 @@ header .menu a {
 .video {
     display: flex;
     align-items: center;
-    position: relative;
     margin: 0 auto;
     max-width: 1440px;
     width: 1440px;
@@ -208,12 +207,13 @@ header .menu a {
 }
 
 .video-title {
-  display: flex;
-  position: absolute;
-  color: #071629;
-  text-align: center;
-  word-spacing: normal;
-  font: 400 24px/normal 'Source Sans Pro', sans-serif;
+    display: flex;
+    position: absolute;
+    color: #071629;
+    text-align: center;
+    word-spacing: normal;
+    font: 400 24px/normal 'Source-Sans-Pro-light', sans-serif;
+    top: -80px; /* Adjusted top position */
 }
 
 .video-title .highlight2 {
@@ -225,9 +225,7 @@ header .menu a {
   display: flex;
   position: absolute;
  justify-content: space-around;
-  border: 10px solid #000;
   width: 1228px;
-  height: 450px;
   flex-shrink: 0;
   margin-left: 80px;
 }
@@ -239,14 +237,14 @@ header .menu a {
 
   position: relative;
   width: 255px;
-  height: 335px;
+  height: 450px;
   flex-shrink: 0;
   margin: 20px;
   padding:px;
   background-color: #fff;
-  border-radius: 0px;
+  border-radius: 22px;
   background: #FFF;
-  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+  box-shadow: 0px 2px 2px 0px rgba(7, 22, 41, 0.18);
 
 }
 
@@ -257,11 +255,18 @@ header .menu a {
   border-radius: 50%;
   overflow: hidden;
 }
-.stars {
+#stars {
+  display: flex;
   width: 107px;
   height: 15px;
   flex-shrink: 0;
-  padding: 305px 135px 15px 13px;
+  /*padding: 305px 135px 15px 13px;*/
+}
+.vidbox4 .bottom {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 .membership {
   background: #071629;
