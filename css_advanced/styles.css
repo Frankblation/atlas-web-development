@@ -1,6 +1,6 @@
 
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source-Sans-Pro';
   src: url('css_advanced/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
@@ -338,7 +338,7 @@ header .menu a {
   position: absolute;
   justify-content: space-around;
   color:white;
-  font: 100 18px/normal 'Source-Sans-Pro', ;
+  font: 100 18px/normal 'Source-Sans-Pro';
   width: 1228px;
   flex-shrink: 0;
   margin-left: 60px;
@@ -389,10 +389,11 @@ header .menu a {
 }
   #image{
   display: flex;
+  position:relative;
   justify-content: space-between;
   width:1035px;
   height: 35px;
-  margin-left:165px;
+  padding-top: 100px;
 }
   .icons {
   display:flex;
@@ -402,13 +403,16 @@ header .menu a {
   height:30px;
 }
 
-.bottomfont
+#smileschool
 {
 display: flex;
+color:white;
 justify-content: center;
+font-size: 12px;
 width: 96px;
 height:15px;
-top:60px;
+padding-top:50px;
+opacity: 20%;
 
 }
 
