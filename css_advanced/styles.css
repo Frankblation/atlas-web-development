@@ -10,6 +10,7 @@ body{
   display:flex;
   flex-wrap:wrap
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -44,7 +45,7 @@ header .menu a {
   text-decoration: none;
   font: 12px/normal 'Source Sans Pro', sans-serif;
 }
-
+/*Banner------------------------------------------*/
 .banner {
   display: flex;
   flex-direction: column;
@@ -133,7 +134,7 @@ header .menu a {
   color: #FFF;
   font: 300 32px/normal 'Source Sans Pro', sans-serif;
 }
-
+/*Quote--------------------------------------*/
 .quote {
   background: #C271FF;
   fill: #C271FF;
@@ -194,16 +195,15 @@ header .menu a {
   color: #FFF;
   font: 400 22px/33.6px 'Source Sans Pro';
 }
-
+/*VIDEO------------------------------------*/
 .video {
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
     max-width: 1440px;
     width: 1440px;
     height: 674px;
     flex-shrink: 0;
-
 }
 
 .video-title {
@@ -216,6 +216,16 @@ header .menu a {
     top: -80px; /* Adjusted top position */
 }
 
+.photo {
+  display: flex;
+  position:relative;
+  border-top-right-radius:5px;
+  border-top-left-radius:5px;;
+  width: 260px;
+  height: 155px;
+  top: 60px;
+}
+
 .video-title .highlight2 {
   color: #C271FF;
   font: 700 36px/normal 'Source Sans Pro', sans-serif;
@@ -224,7 +234,7 @@ header .menu a {
 .video-container {
   display: flex;
   position: absolute;
- justify-content: space-around;
+  justify-content: space-around;
   width: 1228px;
   flex-shrink: 0;
   margin-left: 80px;
@@ -234,18 +244,35 @@ header .menu a {
 .vidbox2,
 .vidbox3,
 .vidbox4 {
-
   position: relative;
-  width: 255px;
-  height: 450px;
-  flex-shrink: 0;
+  width: 260px;
+  height: 425px;
   margin: 20px;
-  padding:px;
+  padding:1px;
   background-color: #fff;
   border-radius: 22px;
   background: #FFF;
-  box-shadow: 0px 2px 2px 0px rgba(7, 22, 41, 0.18);
+  box-shadow: 0px 1px 1px 0px rgba(7, 22, 41, 0.18);
+  margin-top: 20px;
+}
 
+.photophill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+}
+
+.photophill h3{
+  display: flex;
+  padding-left:1;
+  position:relative;
+  font-family: "Source Sans Pro-Semibold", Helvetica;
+  font-weight: 400;
+  color: #c170ff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 27px;
 }
 
 #phill {
@@ -255,35 +282,134 @@ header .menu a {
   border-radius: 50%;
   overflow: hidden;
 }
+
+.video-container h2{
+  display: flex;
+  top: 200px;
+  height: 20px;
+}
+
 #stars {
   display: flex;
   width: 107px;
   height: 15px;
+  right: 10px;
   flex-shrink: 0;
-  /*padding: 305px 135px 15px 13px;*/
 }
-.vidbox4 .bottom {
+
+ .bottom {
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items:center;
+  gap: 79px;
+}
 
-}
-.membership {
-  background: #071629;
-  fill: #071629;
-  width: 1440px;
-  height: 502px;
-  flex-shrink: 0;
-}
 .box {
   width: 64px;
   height: 64px;
-  }
+}
+
   .box .play {
   display: flex;
   position: absolute;
   width: 64px;
   height: 64px;
-  top: 45px;
+  top: 100px;
   left: 95px;
   }
+/*Mebership--------------------*/
+.membership {
+  background: #071629;
+  fill: #071629;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+}
+  .highlight3 {
+  color: #C271FF;
+  font: 600 28px/normal 'Source Sans Pro', sans-serif;
+}
+
+.free{
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  color:white;
+  font: 100 18px/normal 'Source-Sans-Pro', ;
+  width: 1228px;
+  flex-shrink: 0;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.main {
+  display:flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  text-wrap:wrap;
+  width:1350px;
+  font-family: 'source-sans-pro';
+  font-size: 14px;
+  flex-direction: row;
+  height:275px;
+  padding-top: 200px;
+}
+
+#button2 {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  left: 590px;
+  margin-top: -75px;
+  width: 162px;
+  color: #ffff;
+  text-align: center;
+  font: 600 13px/normal 'SourceSansPro';
+  border-radius: 22px;
+  background: #C271FF;
+}
+/*FAQ------------------------------------*/
+
+
+.footer{
+  display:flex;
+  align-items: center;
+  background-color: #071629;
+  justify-items: center;
+  flex-direction: column;
+  position: relative;
+  width:1440px;
+  height:240px;
+}
+  #image{
+  display: flex;
+  justify-content: space-between;
+  width:1035px;
+  height: 35px;
+  margin-left:165px;
+}
+  .icons {
+  display:flex;
+  position: relative;
+  justify-content: space-evenly;
+  width:130px;
+  height:30px;
+}
+
+.bottomfont
+{
+display: flex;
+justify-content: center;
+width: 96px;
+height:15px;
+top:60px;
+
+}
+
+
