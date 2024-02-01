@@ -1,6 +1,6 @@
 
 @font-face {
-  font-family: 'Source-Sans-Pro';
+  font-family: 'Source Sans Pro';
   src: url('css_advanced/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
@@ -212,8 +212,8 @@ header .menu a {
     color: #071629;
     text-align: center;
     word-spacing: normal;
-    font: 400 24px/normal 'Source-Sans-Pro-light', sans-serif;
-    top: -80px; /* Adjusted top position */
+    font: 200 14px/normal 'Source Sans Pro';
+    top: -80px;
 }
 
 .photo {
@@ -228,7 +228,7 @@ header .menu a {
 
 .video-title .highlight2 {
   color: #C271FF;
-  font: 700 36px/normal 'Source Sans Pro', sans-serif;
+  font: 700 36px/normal 'Source Sans Pro';
 }
 
 .video-container {
@@ -267,10 +267,10 @@ header .menu a {
   display: flex;
   padding-left:1;
   position:relative;
-  font-family: "Source Sans Pro-Semibold", Helvetica;
+  font-family: "Source Sans Pro";
   font-weight: 400;
   color: #c170ff;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 0;
   line-height: 27px;
 }
@@ -281,6 +281,7 @@ header .menu a {
   flex-shrink: 0;
   border-radius: 50%;
   overflow: hidden;
+  padding-left: 3px;
 }
 
 .video-container h2{
@@ -295,6 +296,7 @@ header .menu a {
   height: 15px;
   right: 10px;
   flex-shrink: 0;
+
 }
 
  .bottom {
@@ -303,6 +305,9 @@ header .menu a {
   justify-content: space-evenly;
   align-items:center;
   gap: 79px;
+}
+#min {
+  display: flex;
 }
 
 .box {
@@ -376,7 +381,47 @@ header .menu a {
 }
 /*FAQ------------------------------------*/
 
+.faq{
+  display:flex;
+  position: relative;
+  width:920px;
+  height:770px;
+  align-items: center;
+  flex-direction:column;
 
+}
+
+.item-block p{
+  color: rgba(7, 22, 41, 0.50);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  gap: 30px;
+  width: 350px;
+}
+.row-block{
+
+  display:flex;
+  width:250px;
+  height: 290px;
+  margin-left: 0px;
+  margin-top:120px;
+  flex-direction: row;
+  gap:220px;
+}
+
+.item-block{
+  flex-direction: column;
+  display:flex;
+  width:350px;
+  height:24px;
+  justify-content:space-evenly;
+
+}
+/*Footer----------------------------------*/
 .footer{
   display:flex;
   align-items: center;
@@ -415,5 +460,4 @@ padding-top:50px;
 opacity: 20%;
 
 }
-
 
