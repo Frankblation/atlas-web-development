@@ -68,6 +68,7 @@ header .menu a {
 }
 
 #BP {
+  max-width: fit-content;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -380,6 +381,13 @@ header .menu a {
   background: #C271FF;
 }
 /*FAQ------------------------------------*/
+.faq h1 {
+  display:flex;
+  width: 136px;
+  height:75px;
+  font: 100 18px/normal 'Source-Sans-Pro';
+
+}
 
 .faq{
   display:flex;
@@ -401,26 +409,19 @@ header .menu a {
   display: flex;
   gap: 30px;
   width: 350px;
+  max-width: fit-content
 }
 .row-block{
-
   display:flex;
-  width:250px;
-  height: 290px;
-  margin-left: 0px;
+  width:200px;
+  height: 200px;
+  margin-left: -120px;
   margin-top:120px;
   flex-direction: row;
   gap:220px;
+  max-width: fit-content
 }
 
-.item-block{
-  flex-direction: column;
-  display:flex;
-  width:350px;
-  height:24px;
-  justify-content:space-evenly;
-
-}
 /*Footer----------------------------------*/
 .footer{
   display:flex;
