@@ -385,7 +385,8 @@ header .menu a {
   display:flex;
   width: 136px;
   height:75px;
-  font: 100 18px/normal 'Source-Sans-Pro';
+  font: 100 60px/normal 'Source-Sans-Pro';
+  margin-left:400px;
 
 }
 
@@ -409,17 +410,17 @@ header .menu a {
   display: flex;
   gap: 30px;
   width: 350px;
-  max-width: fit-content
+  max-width: fit-content;
 }
 .row-block{
   display:flex;
   width:200px;
-  height: 200px;
-  margin-left: -120px;
-  margin-top:120px;
+  height: 230px;
+  margin-left: -200px;
+  margin-top:40px;
   flex-direction: row;
   gap:220px;
-  max-width: fit-content
+  max-width: fit-content;
 }
 
 /*Footer----------------------------------*/
